@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1540579445459753572}
   - component: {fileID: 5859026731781854741}
   - component: {fileID: 6994884181367768568}
+  - component: {fileID: 7682321498414164866}
   m_Layer: 0
   m_Name: Brick Solid
-  m_TagString: Untagged
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f5007e97ad248314cbbed7769ae23a86, type: 2}
+  - {fileID: 2100000, guid: 86237a2ab2f785340b6db5bfd60ad6b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -133,3 +134,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &7682321498414164866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2587723419815670846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa834bc6b3833274f85e550f1ea86cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 1
+  solid: 0

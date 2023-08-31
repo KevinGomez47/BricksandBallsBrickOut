@@ -6,7 +6,7 @@ public class BrickSolid : Brick
 {
     void Start()
     {
-        solid = true;
+        isSolid = true;
     }
 
 }
