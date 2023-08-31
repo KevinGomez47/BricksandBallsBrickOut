@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 818910550215400688}
   - component: {fileID: 8751887877282242330}
   - component: {fileID: 4526475143680209133}
+  - component: {fileID: -6324384967817477538}
   m_Layer: 0
   m_Name: Paddle
-  m_TagString: Untagged
+  m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3375d5ad66e31f6418fbe33a3e1f341f, type: 2}
+  - {fileID: 2100000, guid: 578fffad4188d6e489e41505eeb18d6d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -134,3 +135,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 3
+--- !u!114 &-6324384967817477538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132366183782234733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de077e3c2f7c09940b4f57c3e41c102c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limitX: 7.2
+  paddleSpeed: 20
+  ball: {fileID: 0}

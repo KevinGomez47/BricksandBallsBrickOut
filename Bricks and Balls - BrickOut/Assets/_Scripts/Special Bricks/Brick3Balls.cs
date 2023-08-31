@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Brick3Balls : Brick
 {
-    public GameObject paddle;
     public GameObject threeBalls;
+    Vector3 PosToInst;
     void Start()
     {
-        
+        PosToInst = transform.position;
     }
 
     public override void bounceBall()
@@ -20,9 +20,8 @@ public class Brick3Balls : Brick
 
     private void spawnBalls()
     {
-        var brickCenter = gameObject.GetComponent<Renderer>().bounds.center;
         var powerUp = Instantiate(threeBalls);
-        powerUp.transform.position = brickCenter;
+        powerUp.transform.position = PosToInst;
         powerUp.name = gameObject.name;
         powerUp.SetActive(true);
 
